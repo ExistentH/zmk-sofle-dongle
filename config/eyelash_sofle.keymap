@@ -152,6 +152,6 @@
             >;
             display-name = "lang";
             sensor-bindings = <&rsr_vol &rsr_trans>;
-        }
+        };
     };
 };
