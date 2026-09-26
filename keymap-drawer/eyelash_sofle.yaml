@@ -41,10 +41,10 @@ layers:
   - N
   - Q
   - '#'
-  - Z
+  - G
   - X
-  - C
-  - V
+  - J
+  - K
   - {t: '-', s: _}
   - $$mdi:arrow-right-bold$$
   - '?'
@@ -106,10 +106,10 @@ layers:
   - Sft+N
   - Sft+Q
   - {t: Gui+/, s: 'Gui+?'}
-  - Sft+Z
+  - Sft+G
   - Sft+X
-  - Sft+C
-  - Sft+V
+  - Sft+J
+  - Sft+K
   - {t: Gui+., s: Gui+>}
   - {t: '$$mdi:transfer$$', type: trans}
   - '!'
