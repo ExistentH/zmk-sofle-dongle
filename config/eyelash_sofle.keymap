@@ -9,18 +9,18 @@
 #include <behaviors/runtime-sensor-rotate.dtsi>
 #include <dt-bindings/zmk/mouse.h>
 
-#define HM_EN 0
-#define SH_EN 1
-#define NS_EN 2
-#define HM_PT 3
-#define SH_PT 4
-#define NS_PT 5
-#define HM_RU 6
-#define SH_RU 7
-#define NS_RU 8
-#define HM_ES 9
-#define SH_ES 10
-#define NS_ES 11
+#define HOME_EN 0
+#define SHFT_EN 1
+#define NUMS_EN 2
+#define HOME_PT 3
+#define SHFT_PT 4
+#define NUMS_PT 5
+#define HOME_RU 6
+#define SHFT_RU 7
+#define NUMS_RU 8
+#define HOME_ES 9
+#define SHFT_ES 10
+#define NUMS_ES 11
 #define EDIT 12
 #define HEXA 13
 #define LANG 14
@@ -92,7 +92,7 @@
             <&macro_press &kp RGUI>,
             <&kp N1>,
             <&macro_release &kp RGUI>,
-            <&to HOME_EN>;
+            <&to HM_EN>;
         };
         lang_pt: lang_pt {
         compatible = "zmk,behavior-macro";
@@ -144,7 +144,7 @@
 &kp AMPS      &kp B         &kp Y         &kp O         &kp U         &kp SQT       &mmv MOVE_DOWN  &kp DQT       &kp L         &kp D         &kp W         &kp V         &kp Z
 &kp UNDER     &kp C         &kp I         &kp E         &kp A         &kp COMMA     &mmv MOVE_LEFT  &kp DOT       &kp H         &kp T         &kp S         &kp N         &kp Q
 &kp BSLH      &kp G         &kp X         &kp J         &kp K         &kp MINUS     &mmv MOVE_RIGHT &kp QMARK     &kp R         &kp M         &kp F         &kp P         &kp PIPE
-&kp C_MUTE    &soft_off     &bt BT_NXT    &kp RET       &kp SPACE     &kp BSPC      &mkp LCLK       &sl NS_EN     &sl SH_EN     &kp LC(BSPC) &rgb_ug RGB_EFF &rgb_ug RGB_TOG
+&kp C_MUTE    &soft_off     &bt BT_NXT    &kp RET       &kp SPACE     &kp BSPC      &mkp LCLK       &sl NUMS_EN   &sl SHFT_EN   &kp LC(BSPC) &rgb_ug RGB_EFF &rgb_ug RGB_TOG
             >;
             display-name = "home EN";
             sensor-bindings = <&rsr_vol &rsr_trans>;
@@ -180,7 +180,7 @@
 &kp AMPS      &kp B         &kp Y         &kp O         &kp U         &kp SQT       &mmv MOVE_DOWN  &kp DQT       &kp L         &kp D         &kp W         &kp V         &kp Z
 &kp UNDER     &kp C         &kp I         &kp E         &kp A         &kp COMMA     &mmv MOVE_LEFT  &kp DOT       &kp H         &kp T         &kp S         &kp N         &kp Q
 &kp BSLH      &kp G         &kp X         &kp J         &kp K         &kp MINUS     &mmv MOVE_RIGHT &kp QMARK     &kp R         &kp M         &kp F         &kp P         &kp PIPE
-&kp C_MUTE    &soft_off     &bt BT_NXT    &kp RET       &kp SPACE     &kp BSPC      &mkp LCLK       &sl NS_PT     &sl SH_PT     &kp LC(BSPC) &rgb_ug RGB_EFF &rgb_ug RGB_TOG
+&kp C_MUTE    &soft_off     &bt BT_NXT    &kp RET       &kp SPACE     &kp BSPC      &mkp LCLK       &sl NUMS_PT   &sl SHFT_PT   &kp LC(BSPC) &rgb_ug RGB_EFF &rgb_ug RGB_TOG
             >;
             display-name = "home PT";
             sensor-bindings = <&rsr_vol &rsr_trans>;
@@ -216,7 +216,7 @@
 &kp AMPS      &kp B         &kp Y         &kp O         &kp U         &kp SQT       &mmv MOVE_DOWN  &kp DQT       &kp L         &kp D         &kp W         &kp V         &kp Z
 &kp UNDER     &kp C         &kp I         &kp E         &kp A         &kp COMMA     &mmv MOVE_LEFT  &kp DOT       &kp H         &kp T         &kp S         &kp N         &kp Q
 &kp BSLH      &kp G         &kp X         &kp J         &kp K         &kp MINUS     &mmv MOVE_RIGHT &kp QMARK     &kp R         &kp M         &kp F         &kp P         &kp PIPE
-&kp C_MUTE    &soft_off     &bt BT_NXT    &kp RET       &kp SPACE     &kp BSPC      &mkp LCLK       &sl NS_RU     &sl SH_RU     &kp LC(BSPC) &rgb_ug RGB_EFF &rgb_ug RGB_TOG
+&kp C_MUTE    &soft_off     &bt BT_NXT    &kp RET       &kp SPACE     &kp BSPC      &mkp LCLK       &sl NUMS_RU   &sl SHFT_RU   &kp LC(BSPC) &rgb_ug RGB_EFF &rgb_ug RGB_TOG
             >;
             display-name = "home PT";
             sensor-bindings = <&rsr_vol &rsr_trans>;
@@ -252,7 +252,7 @@
 &kp AMPS      &kp B         &kp Y         &kp O         &kp U         &kp SQT       &mmv MOVE_DOWN  &kp DQT       &kp L         &kp D         &kp W         &kp V         &kp Z
 &kp UNDER     &kp C         &kp I         &kp E         &kp A         &kp COMMA     &mmv MOVE_LEFT  &kp DOT       &kp H         &kp T         &kp S         &kp N         &kp Q
 &kp BSLH      &kp G         &kp X         &kp J         &kp K         &kp MINUS     &mmv MOVE_RIGHT &kp QMARK     &kp R         &kp M         &kp F         &kp P         &kp PIPE
-&kp C_MUTE    &soft_off     &bt BT_NXT    &kp RET       &kp SPACE     &kp BSPC      &mkp LCLK       &sl NS_ES     &sl SH_ES     &kp LC(BSPC) &rgb_ug RGB_EFF &rgb_ug RGB_TOG
+&kp C_MUTE    &soft_off     &bt BT_NXT    &kp RET       &kp SPACE     &kp BSPC      &mkp LCLK       &sl NUMS_ES   &sl SHFT_ES   &kp LC(BSPC) &rgb_ug RGB_EFF &rgb_ug RGB_TOG
             >;
             display-name = "home PT";
             sensor-bindings = <&rsr_vol &rsr_trans>;
