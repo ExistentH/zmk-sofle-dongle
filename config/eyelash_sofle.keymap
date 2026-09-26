@@ -92,7 +92,7 @@
             <&macro_press &kp RGUI>,
             <&kp N1>,
             <&macro_release &kp RGUI>,
-            <&to HM_EN>;
+            <&to HOME_EN>;
         };
         lang_pt: lang_pt {
         compatible = "zmk,behavior-macro";
