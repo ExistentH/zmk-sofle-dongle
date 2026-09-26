@@ -86,7 +86,7 @@
 &none         &none         &none         &none         &none         &none         &none         &none         &none         &none         &none         &none         &none
 &kp GRAVE     &kp B         &kp Y         &kp O         &kp U         &kp SQT       &kp DOWN      &kp DQT       &kp L         &kp D         &kp W         &kp V         &kp Z
 &kp UNDER     &kp C         &kp I         &kp E         &kp A         &kp COMMA     &kp LEFT      &kp DOT       &kp H         &kp T         &kp S         &kp N         &kp Q
-&kp HASH      &kp Z         &kp X         &kp C         &kp V         &kp MINUS     &kp RIGHT     &kp QMARK     &kp R         &kp M         &kp F         &kp P         &kp RG(DOT)
+&kp HASH      &kp G         &kp X         &kp J         &kp K         &kp MINUS     &kp RIGHT     &kp QMARK     &kp R         &kp M         &kp F         &kp P         &kp RG(DOT)
 &kp C_MUTE    &kp LS(TAB)   &kp TAB       &kp RET       &kp SPACE     &kp BSPC      &kp RET       &sl 2         &sl 1         &kp LC(BSPC)  &kp CAPS      &to 2
             >;
             sensor-bindings = <&rsr_vol &rsr_trans>;
@@ -99,7 +99,7 @@
 &trans        &trans        &trans        &mo 3         &trans        &trans        &trans        &trans        &trans        &mo 3         &trans        &trans        &trans
 &kp RG(E)     &kp LS(B)     &kp LS(Y)     &kp LS(O)     &kp LS(U)     &kp AT        &trans        &kp DQT       &kp LS(L)     &kp LS(D)     &kp LS(W)     &kp LS(V)     &kp LS(Z)
 &kp RG(A)     &kp LS(C)     &kp LS(I)     &kp LS(E)     &kp LS(A)     &kp SEMI      &trans        &kp COLON     &kp LS(H)     &kp LS(T)     &kp LS(S)     &kp LS(N)     &kp LS(Q)
-&kp RG(SLASH) &kp LS(Z)     &kp LS(X)     &kp LS(C)     &kp LS(V)     &kp RG(DOT)   &trans        &kp EXCL      &kp LS(R)     &kp LS(M)     &kp LS(F)     &kp LS(P)     &kp RG(N)
+&kp RG(SLASH) &kp LS(G)     &kp LS(X)     &kp LS(J)     &kp LS(K)     &kp RG(DOT)   &trans        &kp EXCL      &kp LS(R)     &kp LS(M)     &kp LS(F)     &kp LS(P)     &kp RG(N)
 &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans
             >;
 
