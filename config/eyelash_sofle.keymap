@@ -15,9 +15,15 @@
 #define HM_PT 3
 #define SH_PT 4
 #define NS_PT 5
-#define EDIT 6
-#define HEXA 7
-#define LANG 8
+#define HM_RU 6
+#define SH_RU 7
+#define NS_RU 8
+#define HM_ES 9
+#define SH_ES 10
+#define NS_ES 11
+#define EDIT 12
+#define HEXA 13
+#define LANG 14
 
 / {
     zip_scroll_scaler: zip_scroll_scaler {
@@ -193,6 +199,78 @@
         };
 
         portuguese_number {
+            bindings = <
+&trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans
+&kp CARET     &kp PRCNT     &kp N6        &kp N8        &kp DOT       &kp LBKT      &trans        &kp RBKT      &kp COMMA     &kp N9        &kp N7        &kp PLUS      &kp TILDE
+&kp SEMI      &kp EQUAL     &kp N4        &kp N1        &kp N2        &kp LPAR      &trans        &kp RPAR      &kp N3        &kp N0        &kp N5        &kp MINUS     &kp EXCL
+&kp RG(APOS)  &kp DLLR      &kp RG(EQUAL) &kp RG(R)     &kp SLASH     &kp LBRC      &trans        &kp RBRC      &kp ASTRK     &kp LT        &kp GT        &kp COLON     &kp RG(P)
+&trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans
+            >;
+            display-name = "nums PT";
+            sensor-bindings = <&rsr_vol &rsr_trans>;
+        };
+
+        russian {
+            bindings = <
+&none         &none         &mo 5         &mo 3         &mo 4         &none         &mmv MOVE_UP    &none         &mo 4         &mo 3         &mo 5         &none         &none
+&kp AMPS      &kp B         &kp Y         &kp O         &kp U         &kp SQT       &mmv MOVE_DOWN  &kp DQT       &kp L         &kp D         &kp W         &kp V         &kp Z
+&kp UNDER     &kp C         &kp I         &kp E         &kp A         &kp COMMA     &mmv MOVE_LEFT  &kp DOT       &kp H         &kp T         &kp S         &kp N         &kp Q
+&kp BSLH      &kp G         &kp X         &kp J         &kp K         &kp MINUS     &mmv MOVE_RIGHT &kp QMARK     &kp R         &kp M         &kp F         &kp P         &kp PIPE
+&kp C_MUTE    &soft_off     &bt BT_NXT    &kp RET       &kp SPACE     &kp BSPC      &mkp LCLK       &sl NS_RU     &sl SH_RU     &kp LC(BSPC) &rgb_ug RGB_EFF &rgb_ug RGB_TOG
+            >;
+            display-name = "home PT";
+            sensor-bindings = <&rsr_vol &rsr_trans>;
+        };
+
+        russian_shift {
+            bindings = <
+&trans        &trans        &trans        &mo 3         &trans        &trans        &trans        &trans        &trans        &mo 3         &trans        &trans        &trans
+&kp RG(A)     &kp LS(B)     &kp LS(Y)     &kp LS(O)     &kp LS(U)     &kp GRAVE     &trans        &kp RG(T)     &kp LS(L)     &kp LS(D)     &kp LS(W)     &kp LS(V)     &kp LS(Z)
+&kp RG(E)     &kp LS(C)     &kp LS(I)     &kp LS(E)     &kp LS(A)     &kp HASH      &trans        &kp AT        &kp LS(H)     &kp LS(T)     &kp LS(S)     &kp LS(N)     &kp LS(Q)
+&kp RG(N)     &kp LS(G)     &kp LS(X)     &kp LS(J)     &kp LS(K)     &kp RG(MINUS) &trans        &kp RG(DOT)   &kp LS(R)     &kp LS(M)     &kp LS(F)     &kp LS(P)     &kp RG(C)
+&trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans
+            >;
+            display-name = "shft PT";
+            sensor-bindings = <&rsr_vol &rsr_trans>;
+        };
+
+        russian_number {
+            bindings = <
+&trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans
+&kp CARET     &kp PRCNT     &kp N6        &kp N8        &kp DOT       &kp LBKT      &trans        &kp RBKT      &kp COMMA     &kp N9        &kp N7        &kp PLUS      &kp TILDE
+&kp SEMI      &kp EQUAL     &kp N4        &kp N1        &kp N2        &kp LPAR      &trans        &kp RPAR      &kp N3        &kp N0        &kp N5        &kp MINUS     &kp EXCL
+&kp RG(APOS)  &kp DLLR      &kp RG(EQUAL) &kp RG(R)     &kp SLASH     &kp LBRC      &trans        &kp RBRC      &kp ASTRK     &kp LT        &kp GT        &kp COLON     &kp RG(P)
+&trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans
+            >;
+            display-name = "nums PT";
+            sensor-bindings = <&rsr_vol &rsr_trans>;
+        };
+
+        spanish {
+            bindings = <
+&none         &none         &mo 5         &mo 3         &mo 4         &none         &mmv MOVE_UP    &none         &mo 4         &mo 3         &mo 5         &none         &none
+&kp AMPS      &kp B         &kp Y         &kp O         &kp U         &kp SQT       &mmv MOVE_DOWN  &kp DQT       &kp L         &kp D         &kp W         &kp V         &kp Z
+&kp UNDER     &kp C         &kp I         &kp E         &kp A         &kp COMMA     &mmv MOVE_LEFT  &kp DOT       &kp H         &kp T         &kp S         &kp N         &kp Q
+&kp BSLH      &kp G         &kp X         &kp J         &kp K         &kp MINUS     &mmv MOVE_RIGHT &kp QMARK     &kp R         &kp M         &kp F         &kp P         &kp PIPE
+&kp C_MUTE    &soft_off     &bt BT_NXT    &kp RET       &kp SPACE     &kp BSPC      &mkp LCLK       &sl NS_ES     &sl SH_ES     &kp LC(BSPC) &rgb_ug RGB_EFF &rgb_ug RGB_TOG
+            >;
+            display-name = "home PT";
+            sensor-bindings = <&rsr_vol &rsr_trans>;
+        };
+
+        spanish_shift {
+            bindings = <
+&trans        &trans        &trans        &mo 3         &trans        &trans        &trans        &trans        &trans        &mo 3         &trans        &trans        &trans
+&kp RG(A)     &kp LS(B)     &kp LS(Y)     &kp LS(O)     &kp LS(U)     &kp GRAVE     &trans        &kp RG(T)     &kp LS(L)     &kp LS(D)     &kp LS(W)     &kp LS(V)     &kp LS(Z)
+&kp RG(E)     &kp LS(C)     &kp LS(I)     &kp LS(E)     &kp LS(A)     &kp HASH      &trans        &kp AT        &kp LS(H)     &kp LS(T)     &kp LS(S)     &kp LS(N)     &kp LS(Q)
+&kp RG(N)     &kp LS(G)     &kp LS(X)     &kp LS(J)     &kp LS(K)     &kp RG(MINUS) &trans        &kp RG(DOT)   &kp LS(R)     &kp LS(M)     &kp LS(F)     &kp LS(P)     &kp RG(C)
+&trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans
+            >;
+            display-name = "shft PT";
+            sensor-bindings = <&rsr_vol &rsr_trans>;
+        };
+
+        spanish_number {
             bindings = <
 &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans
 &kp CARET     &kp PRCNT     &kp N6        &kp N8        &kp DOT       &kp LBKT      &trans        &kp RBKT      &kp COMMA     &kp N9        &kp N7        &kp PLUS      &kp TILDE
