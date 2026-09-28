@@ -89,7 +89,12 @@
         #binding-cells = <0>;
 
         bindings =
-            <&kp LS(LA(0))>,
+            
+            <&macro_press &kp LSHIFT>,
+            <&macro_press &kp LALT>,
+            <&macro_tap &kp 0>,
+            <&macro_release &kp LALT>,
+            <&macro_release &kp LSHIFT>,
             <&to HOME_EN>;
         };
         lang_pt: lang_pt {
@@ -97,7 +102,12 @@
         #binding-cells = <0>;
 
         bindings =
-            <&kp LS(LA(1))>,
+            
+            <&macro_press &kp LSHIFT>,
+            <&macro_press &kp LALT>,
+            <&macro_tap &kp 1>,
+            <&macro_release &kp LALT>,
+            <&macro_release &kp LSHIFT>,
             <&to HOME_PT>;
         };
         pt_low_a_grave: pt_low_a_grave {
@@ -121,7 +131,11 @@
         #binding-cells = <0>;
 
         bindings =
-            <&kp LS(LA(2))>,
+            <&macro_press &kp LSHIFT>,
+            <&macro_press &kp LALT>,
+            <&macro_tap &kp 2>,
+            <&macro_release &kp LALT>,
+            <&macro_release &kp LSHIFT>,
             <&to HOME_RU>;
         };
         lang_es: lang_es {
@@ -129,7 +143,11 @@
         #binding-cells = <0>;
 
         bindings =
-            <&kp LS(LA(3))>,
+            <&macro_press &kp LSHIFT>,
+            <&macro_press &kp LALT>,
+            <&macro_tap &kp 3>,
+            <&macro_release &kp LALT>,
+            <&macro_release &kp LSHIFT>,
             <&to HOME_ES>;
         };
     };
@@ -186,7 +204,7 @@
             bindings = <
 &none         &none         &mo LANG      &mo EDIT      &mo HEXA      &none         &mmv MOVE_UP    &none         &mo HEXA      &mo EDIT      &mo LANG      &none         &none
 &kp SQT       &kp B         &kp Y         &kp O         &kp U         &kp GRAVE     &mmv MOVE_DOWN  &kp TILDE     &kp L         &kp D         &kp W         &kp V         &kp Z
-&kp RBKT      &kp C         &kp I         &kp E         &kp A         &kp COMMA     &mmv MOVE_LEFT  &kp DOT       &kp H         &kp T         &kp S         &kp N         &kp Q
+&kp LBKT      &kp C         &kp I         &kp E         &kp A         &kp COMMA     &mmv MOVE_LEFT  &kp DOT       &kp H         &kp T         &kp S         &kp N         &kp Q
 &pt_low_a_grave &kp G       &kp X         &kp J         &kp K         &kp MINUS     &mmv MOVE_RIGHT &kp LS(INT1)  &kp R         &kp M         &kp F         &kp P         &kp SEMI
 &kp C_MUTE    &soft_off     &bt BT_NXT    &kp RET       &kp SPACE     &kp BSPC      &mkp LCLK       &sl NUMS_PT   &sl SHFT_PT   &kp LC(BSPC) &rgb_ug RGB_EFF &rgb_ug RGB_TOG
             >;
@@ -209,9 +227,9 @@
         portuguese_number {
             bindings = <
 &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans
-&kp RA(SLASH)  &kp PRCNT     &kp N6        &kp N8        &kp COMMA     &kp LBKT      &trans        &kp RBKT      &kp DOT       &kp N9        &kp N7        &kp PLUS      &kp RA(RBKT)
-&kp SLASH     &kp EQUAL     &kp N4        &kp N1        &kp N2        &kp LPAR      &trans        &kp RPAR      &kp N3        &kp N0        &kp N5        &kp MINUS     &kp EXCL
-&kp RA(E)     &kp DLLR      &kp RG(EQUAL) &kp RG(R)     &kp INT1      &kp LBRC      &trans        &kp RBRC      &kp ASTRK     &kp LT        &kp GT        &kp QMARK     &kp RG(P)
+&kp RA(SLASH) &kp PRCNT     &kp N6        &kp N8        &kp COMMA     &kp RBKT      &trans        &kp SLASH     &kp DOT       &kp N9        &kp N7        &kp PLUS      &kp RA(RBKT)
+&kp BSLH      &kp EQUAL     &kp N4        &kp N1        &kp N2        &kp LPAR      &trans        &kp RPAR      &kp N3        &kp N0        &kp N5        &kp MINUS     &kp EXCL
+&kp RA(E)     &kp DLLR      &kp RG(EQUAL) &kp RG(R)     &kp INT1      &kp RBRC      &trans        &kp QMARK     &kp ASTRK     &kp LT        &kp GT        &kp PIPE     &kp RG(P)
 &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans
             >;
             display-name = "nums PT";
