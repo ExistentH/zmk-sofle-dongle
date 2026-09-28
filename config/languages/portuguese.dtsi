@@ -1,10 +1,10 @@
 portuguese {
     bindings = <
-        &none         &none         &mo LANG      &mo EDIT      &mo HEXA      &none         &mmv MOVE_UP    &none         &mo HEXA      &mo EDIT      &mo LANG      &none         &none
-        &kp SQT       &kp B         &kp Y         &kp O         &kp U         &kp GRAVE     &mmv MOVE_DOWN  &kp TILDE     &kp L         &kp D         &kp W         &kp V         &kp Z
-        &kp LBKT      &kp C         &kp I         &kp E         &kp A         &kp COMMA     &mmv MOVE_LEFT  &kp DOT       &kp H         &kp T         &kp S         &kp N         &kp Q
-        &pt_low_a_grave &kp G       &kp X         &kp J         &kp K         &kp MINUS     &mmv MOVE_RIGHT &kp LS(INT1)  &kp R         &kp M         &kp F         &kp P         &kp SEMI
-        &kp C_MUTE    &soft_off     &bt BT_NXT    &kp RET       &kp SPACE     &kp BSPC      &mkp LCLK       &sl NUMS_PT   &sl SHFT_PT   &kp LC(BSPC) &rgb_ug RGB_EFF &rgb_ug RGB_TOG
+        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans
+        &kp SQT       &kp B         &kp Y         &kp O         &kp U         &kp GRAVE     &trans        &kp TILDE     &kp L         &kp D         &kp W         &kp V         &kp Z
+        &kp LBKT      &kp C         &kp I         &kp E         &kp A         &kp COMMA     &trans        &kp DOT       &kp H         &kp T         &kp S         &kp N         &kp Q
+        &pt_low_a_grave &kp G       &kp X         &kp J         &kp K         &kp MINUS     &trans        &kp LS(INT1)  &kp R         &kp M         &kp F         &kp P         &kp SEMI
+        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans
     >;
     display-name = "home PT";
 };
