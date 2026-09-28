@@ -115,7 +115,7 @@
         bindings =
             <&kp RBRC>,
             <&kp LS(A)>;
-        }
+        };
         lang_ru: lang_ru {
         compatible = "zmk,behavior-macro";
         #binding-cells = <0>;
