@@ -100,7 +100,7 @@
             <&kp LS(LA(1))>,
             <&to HOME_PT>;
         };
-        pt_a_grave: pt_low_a_grave {
+        pt_low_a_grave: pt_low_a_grave {
         compatible = "zmk,behavior-macro";
         #binding-cells = <0>;
 
@@ -108,7 +108,7 @@
             <&kp RBRC>,
             <&kp A>;
         };
-        pt_a_grave: pt_upp_a_grave {
+        pt_upp_a_grave: pt_upp_a_grave {
         compatible = "zmk,behavior-macro";
         #binding-cells = <0>;
 
