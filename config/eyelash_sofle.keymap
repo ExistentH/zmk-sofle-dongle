@@ -221,12 +221,12 @@
         russian {
             bindings = <
 &none         &none         &mo 5         &mo 3         &mo 4         &none         &mmv MOVE_UP    &none         &mo 4         &mo 3         &mo 5         &none         &none
-&kp SQT       &kp COMMA     &kp S         &kp J         &kp E         &kp M         &mmv MOVE_DOWN  &kp LBRT      &kp K         &kp L         &kp I         &kp D         &kp P
-&kp Z         &kp W         &kp B         &kp T         &kp F         &kp LS(SLASH) &mmv MOVE_LEFT  &kp SLASH     &kp RBRT      &kp N         &kp C         &kp Y         &kp SEMI
+&kp SQT       &kp COMMA     &kp S         &kp J         &kp E         &kp M         &mmv MOVE_DOWN  &kp LBKT      &kp K         &kp L         &kp I         &kp D         &kp P
+&kp Z         &kp W         &kp B         &kp T         &kp F         &kp LS(SLASH) &mmv MOVE_LEFT  &kp SLASH     &kp RBKT      &kp N         &kp C         &kp Y         &kp SEMI
 &kp DOT       &kp U         &kp X         &kp Q         &kp R         &kp MINUS     &mmv MOVE_RIGHT &kp LS(7)     &kp H         &kp V         &kp A         &kp G         &kp O
 &kp C_MUTE    &soft_off     &bt BT_NXT    &kp RET       &kp SPACE     &kp BSPC      &mkp LCLK       &sl NUMS_RU   &sl SHFT_RU   &kp LC(BSPC) &rgb_ug RGB_EFF &rgb_ug RGB_TOG
             >;
-            display-name = "home PT";
+            display-name = "home RU";
             sensor-bindings = <&rsr_vol &rsr_trans>;
         };
 
@@ -238,7 +238,7 @@
 &kp GT        &kp LS(U)     &kp LS(X)     &kp LS(Q)     &kp LS(R)     &kp RG(MINUS) &trans        &kp RG(DOT)   &kp LS(H)     &kp LS(V)     &kp LS(A)     &kp LS(G)     &kp LS(O)
 &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans
             >;
-            display-name = "shft PT";
+            display-name = "shft RU";
             sensor-bindings = <&rsr_vol &rsr_trans>;
         };
 
@@ -250,7 +250,7 @@
 &kp RG(APOS)  &kp DLLR      &kp RG(EQUAL) &kp RG(R)     &kp SLASH     &kp LBRC      &trans        &kp RBRC      &kp ASTRK     &kp LT        &kp GT        &kp CARET     &kp HASH
 &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans
             >;
-            display-name = "nums PT";
+            display-name = "nums RU";
             sensor-bindings = <&rsr_vol &rsr_trans>;
         };
 
@@ -262,7 +262,7 @@
 &kp BSLH      &kp G         &kp X         &kp J         &kp K         &kp MINUS     &mmv MOVE_RIGHT &kp QMARK     &kp R         &kp M         &kp F         &kp P         &kp PIPE
 &kp C_MUTE    &soft_off     &bt BT_NXT    &kp RET       &kp SPACE     &kp BSPC      &mkp LCLK       &sl NUMS_ES   &sl SHFT_ES   &kp LC(BSPC) &rgb_ug RGB_EFF &rgb_ug RGB_TOG
             >;
-            display-name = "home PT";
+            display-name = "home ES";
             sensor-bindings = <&rsr_vol &rsr_trans>;
         };
 
@@ -274,7 +274,7 @@
 &kp RG(N)     &kp LS(G)     &kp LS(X)     &kp LS(J)     &kp LS(K)     &kp RG(MINUS) &trans        &kp RG(DOT)   &kp LS(R)     &kp LS(M)     &kp LS(F)     &kp LS(P)     &kp RG(C)
 &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans
             >;
-            display-name = "shft PT";
+            display-name = "shft ES";
             sensor-bindings = <&rsr_vol &rsr_trans>;
         };
 
@@ -286,7 +286,7 @@
 &kp RG(APOS)  &kp DLLR      &kp RG(EQUAL) &kp RG(R)     &kp SLASH     &kp LBRC      &trans        &kp RBRC      &kp ASTRK     &kp LT        &kp GT        &kp COLON     &kp RG(P)
 &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans
             >;
-            display-name = "nums PT";
+            display-name = "nums ES";
             sensor-bindings = <&rsr_vol &rsr_trans>;
         };
 
