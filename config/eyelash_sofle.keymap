@@ -89,26 +89,36 @@
         #binding-cells = <0>;
 
         bindings =
-            
-            <&macro_press &kp LSHIFT>,
-            <&macro_press &kp LALT>,
-            <&macro_tap &kp 0>,
-            <&macro_release &kp LALT>,
-            <&macro_release &kp LSHIFT>,
-            <&to HOME_EN>;
+            <&macro_press>,
+            <&kp LSHIFT>,
+            <&macro_press>,
+            <&kp LALT>,
+            <&macro_tap>,
+            <&kp 0>,
+            <&macro_release>,
+            <&kp LALT>,
+            <&macro_release>,
+            <&kp LSHIFT>,
+            <&macro_tap>,
+            <&kp HOME_EN>;
         };
         lang_pt: lang_pt {
         compatible = "zmk,behavior-macro";
         #binding-cells = <0>;
 
         bindings =
-            
-            <&macro_press &kp LSHIFT>,
-            <&macro_press &kp LALT>,
-            <&macro_tap &kp 1>,
-            <&macro_release &kp LALT>,
-            <&macro_release &kp LSHIFT>,
-            <&to HOME_PT>;
+            <&macro_press>,
+            <&kp LSHIFT>,
+            <&macro_press>,
+            <&kp LALT>,
+            <&macro_tap>,
+            <&kp 1>,
+            <&macro_release>,
+            <&kp LALT>,
+            <&macro_release>,
+            <&kp LSHIFT>,
+            <&macro_tap>,
+            <&kp HOME_PT>;
         };
         pt_low_a_grave: pt_low_a_grave {
         compatible = "zmk,behavior-macro";
@@ -131,24 +141,36 @@
         #binding-cells = <0>;
 
         bindings =
-            <&macro_press &kp LSHIFT>,
-            <&macro_press &kp LALT>,
-            <&macro_tap &kp 2>,
-            <&macro_release &kp LALT>,
-            <&macro_release &kp LSHIFT>,
-            <&to HOME_RU>;
+            <&macro_press>,
+            <&kp LSHIFT>,
+            <&macro_press>,
+            <&kp LALT>,
+            <&macro_tap>,
+            <&kp 2>,
+            <&macro_release>,
+            <&kp LALT>,
+            <&macro_release>,
+            <&kp LSHIFT>,
+            <&macro_tap>,
+            <&kp HOME_RU>;
         };
         lang_es: lang_es {
         compatible = "zmk,behavior-macro";
         #binding-cells = <0>;
 
         bindings =
-            <&macro_press &kp LSHIFT>,
-            <&macro_press &kp LALT>,
-            <&macro_tap &kp 3>,
-            <&macro_release &kp LALT>,
-            <&macro_release &kp LSHIFT>,
-            <&to HOME_ES>;
+            <&macro_press>,
+            <&kp LSHIFT>,
+            <&macro_press>,
+            <&kp LALT>,
+            <&macro_tap>,
+            <&kp 3>,
+            <&macro_release>,
+            <&kp LALT>,
+            <&macro_release>,
+            <&kp LSHIFT>,
+            <&macro_tap>,
+            <&kp HOME_ES>;
         };
     };
 
