@@ -88,6 +88,9 @@
         compatible = "zmk,behavior-macro";
         #binding-cells = <0>;
 
+        wait-ms = <40>;
+        tap-ms = <40>;
+
         bindings =
             <&macro_press>,
             <&kp LSHIFT>,
@@ -105,6 +108,9 @@
         lang_pt: lang_pt {
         compatible = "zmk,behavior-macro";
         #binding-cells = <0>;
+
+        wait-ms = <40>;
+        tap-ms = <40>;
 
         bindings =
             <&macro_press>,
@@ -140,6 +146,9 @@
         compatible = "zmk,behavior-macro";
         #binding-cells = <0>;
 
+        wait-ms = <40>;
+        tap-ms = <40>;
+
         bindings =
             <&macro_press>,
             <&kp LSHIFT>,
@@ -157,6 +166,9 @@
         lang_es: lang_es {
         compatible = "zmk,behavior-macro";
         #binding-cells = <0>;
+
+        wait-ms = <40>;
+        tap-ms = <40>;
 
         bindings =
             <&macro_press>,
