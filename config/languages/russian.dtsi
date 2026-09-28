@@ -1,10 +1,10 @@
 russian {
     bindings = <
-        &none         &none         &mo LANG      &mo EDIT      &mo HEXA      &none         &mmv MOVE_UP    &none         &mo HEXA      &mo EDIT      &mo LANG      &none         &none
-        &kp SQT       &kp COMMA     &kp S         &kp J         &kp E         &kp M         &mmv MOVE_DOWN  &kp LBKT      &kp K         &kp L         &kp I         &kp D         &kp P
-        &kp Z         &kp W         &kp B         &kp T         &kp F         &kp LS(SLASH) &mmv MOVE_LEFT  &kp SLASH     &kp RBKT      &kp N         &kp C         &kp Y         &kp SEMI
-        &kp DOT       &kp U         &kp X         &kp Q         &kp R         &kp MINUS     &mmv MOVE_RIGHT &kp LS(7)     &kp H         &kp V         &kp A         &kp G         &kp O
-        &kp C_MUTE    &soft_off     &bt BT_NXT    &kp RET       &kp SPACE     &kp BSPC      &mkp LCLK       &sl NUMS_RU   &sl SHFT_RU   &kp LC(BSPC) &rgb_ug RGB_EFF &rgb_ug RGB_TOG
+        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans
+        &kp SQT       &kp COMMA     &kp S         &kp J         &kp E         &kp M         &trans        &kp LBKT      &kp K         &kp L         &kp I         &kp D         &kp P
+        &kp Z         &kp W         &kp B         &kp T         &kp F         &kp LS(SLASH) &trans        &kp SLASH     &kp RBKT      &kp N         &kp C         &kp Y         &kp SEMI
+        &kp DOT       &kp U         &kp X         &kp Q         &kp R         &kp MINUS     &trans        &kp LS(7)     &kp H         &kp V         &kp A         &kp G         &kp O
+        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans
     >;
     display-name = "home RU";
 };
