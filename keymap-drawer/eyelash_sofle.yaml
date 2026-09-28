@@ -490,7 +490,7 @@ layers:
   - Gui+2
   - {t: '$$mdi:transfer$$', type: trans}
   - Gui+3
-  - RBRT
+  - {t: ']', s: '}'}
   - Sft+N
   - Sft+C
   - Sft+Y
