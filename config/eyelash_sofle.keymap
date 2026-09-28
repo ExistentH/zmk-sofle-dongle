@@ -234,7 +234,7 @@
             bindings = <
 &trans        &trans        &trans        &mo 3         &trans        &trans        &trans        &trans        &trans        &mo 3         &trans        &trans        &trans
 &kp DQT       &kp LT        &kp LS(S)     &kp LS(J)     &kp LS(E)     &kp LS(M)     &trans        &kp LBRC      &kp LS(K)     &kp LS(L)     &kp LS(I)     &kp LS(D)     &kp LS(P)
-&kp LS(Z)     &kp LS(W)     &kp LS(B)     &kp LS(T)     &kp LS(F)     &kp RG(2)     &trans        &kp RG(3)     &kp RBRT      &kp LS(N)     &kp LS(C)     &kp LS(Y)     &kp COLON
+&kp LS(Z)     &kp LS(W)     &kp LS(B)     &kp LS(T)     &kp LS(F)     &kp RG(2)     &trans        &kp RG(3)     &kp RBKT      &kp LS(N)     &kp LS(C)     &kp LS(Y)     &kp COLON
 &kp GT        &kp LS(U)     &kp LS(X)     &kp LS(Q)     &kp LS(R)     &kp RG(MINUS) &trans        &kp RG(DOT)   &kp LS(H)     &kp LS(V)     &kp LS(A)     &kp LS(G)     &kp LS(O)
 &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans
             >;
