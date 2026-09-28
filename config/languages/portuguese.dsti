@@ -7,7 +7,6 @@ portuguese {
         &kp C_MUTE    &soft_off     &bt BT_NXT    &kp RET       &kp SPACE     &kp BSPC      &mkp LCLK       &sl NUMS_PT   &sl SHFT_PT   &kp LC(BSPC) &rgb_ug RGB_EFF &rgb_ug RGB_TOG
     >;
     display-name = "home PT";
-    sensor-bindings = <&rsr_vol &rsr_trans>;
 };
 
 portuguese_shift {
@@ -19,7 +18,6 @@ portuguese_shift {
         &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans
     >;
     display-name = "shft PT";
-    sensor-bindings = <&rsr_vol &rsr_trans>;
 }
 
 portuguese_number {
@@ -31,5 +29,4 @@ portuguese_number {
         &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans
     >;
     display-name = "nums PT";
-    sensor-bindings = <&rsr_vol &rsr_trans>;
 };
