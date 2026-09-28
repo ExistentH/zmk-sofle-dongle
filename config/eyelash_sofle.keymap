@@ -92,7 +92,7 @@
             <&macro_press &kp LSHIFT &kp LALT>,
             <&macro_tap &kp N0>,
             <&macro_release &kp LALT &kp LSHIFT>,
-            <&macro_tap &kp HOME_EN>;
+            <&macro_tap &to HOME_EN>;
         };
         lang_pt: lang_pt {
         compatible = "zmk,behavior-macro";
@@ -102,7 +102,7 @@
             <&macro_press &kp LSHIFT &kp LALT>,
             <&macro_tap &kp N1>,
             <&macro_release &kp LALT &kp LSHIFT>,
-            <&macro_tap &kp HOME_PT>;
+            <&macro_tap &to HOME_PT>;
         };
         pt_low_a_grave: pt_low_a_grave {
         compatible = "zmk,behavior-macro";
@@ -128,7 +128,7 @@
             <&macro_press &kp LSHIFT &kp LALT>,
             <&macro_tap &kp N2>,
             <&macro_release &kp LALT &kp LSHIFT>,
-            <&macro_tap &kp HOME_RU>;
+            <&macro_tap &to HOME_RU>;
         };
         lang_es: lang_es {
         compatible = "zmk,behavior-macro";
@@ -138,7 +138,7 @@
             <&macro_press &kp LSHIFT &kp LALT>,
             <&macro_tap &kp N3>,
             <&macro_release &kp LALT &kp LSHIFT>,
-            <&macro_tap &kp HOME_ES>;
+            <&macro_tap &to HOME_ES>;
         };
     };
 
