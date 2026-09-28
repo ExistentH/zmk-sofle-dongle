@@ -222,7 +222,7 @@ layers:
   - W
   - V
   - Z
-  - {t: ']', s: '}'}
+  - {t: '[', s: '{'}
   - C
   - I
   - E
@@ -344,15 +344,15 @@ layers:
   - {t: '6', s: ^}
   - {t: '8', s: '*'}
   - {t: ',', s: <}
-  - {t: '[', s: '{'}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {t: ']', s: '}'}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: /, s: '?'}
   - {t: ., s: '>'}
   - {t: '9', s: (}
   - {t: '7', s: '&'}
   - +
   - {t: 'AltGr+]', s: 'AltGr+}'}
-  - {t: /, s: '?'}
+  - {t: \, s: '|'}
   - {t: '=', s: +}
   - {t: '4', s: $}
   - {t: '1', s: '!'}
@@ -370,13 +370,13 @@ layers:
   - {t: Gui+=, s: Gui++}
   - Gui+R
   - INT1
-  - '{'
-  - {t: '$$mdi:transfer$$', type: trans}
   - '}'
+  - {t: '$$mdi:transfer$$', type: trans}
+  - '?'
   - '*'
   - <
   - '>'
-  - '?'
+  - '|'
   - Gui+P
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
