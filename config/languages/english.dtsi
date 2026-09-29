@@ -4,7 +4,7 @@ english {
         &kp AMPS      &kp B         &kp Y         &kp O         &kp U         &kp SQT       &trans        &kp DQT       &kp L         &kp D         &kp W         &kp V         &kp Z
         &kp UNDER     &kp C         &kp I         &kp E         &kp A         &kp COMMA     &trans        &kp DOT       &kp H         &kp T         &kp S         &kp N         &kp Q
         &kp BSLH      &kp G         &kp X         &kp J         &kp K         &kp MINUS     &trans        &kp QMARK     &kp R         &kp M         &kp F         &kp P         &kp PIPE
-        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans
+        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &sl NUMS_EN   &sl SHFT_EN   &trans        &trans        &trans
     >;
     display-name = "Home EN";
 };
