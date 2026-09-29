@@ -18,7 +18,7 @@ portuguese_shift {
         &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans
     >;
     display-name = "shft PT";
-}
+};
 
 portuguese_number {
     bindings = <
