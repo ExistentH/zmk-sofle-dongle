@@ -4,9 +4,9 @@ portuguese {
         &kp SQT       &kp B         &kp Y         &kp O         &kp U         &kp GRAVE     &trans        &kp TILDE     &kp L         &kp D         &kp W         &kp V         &kp Z
         &kp LBKT      &kp C         &kp I         &kp E         &kp A         &kp COMMA     &trans        &kp DOT       &kp H         &kp T         &kp S         &kp N         &kp Q
         &pt_low_a_grave &kp G       &kp X         &kp J         &kp K         &kp MINUS     &trans        &kp LS(INT1)  &kp R         &kp M         &kp F         &kp P         &kp SEMI
-        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans
+        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &sl NUMS_PT   &sl SHFT_PT   &trans        &trans        &trans
     >;
-    display-name = "home PT";
+    display-name = "Home PT";
 };
 
 portuguese_shift {
@@ -17,7 +17,7 @@ portuguese_shift {
         &pt_upp_a_grave &kp LS(G)   &kp LS(X)     &kp LS(J)     &kp LS(K)     &kp RG(MINUS) &trans        &kp RG(DOT)   &kp LS(R)     &kp LS(M)     &kp LS(F)     &kp LS(P)     &kp COLON
         &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans
     >;
-    display-name = "shft PT";
+    display-name = "Shft PT";
 };
 
 portuguese_number {
@@ -28,5 +28,5 @@ portuguese_number {
         &kp RA(E)     &kp DLLR      &kp RG(EQUAL) &kp RG(R)     &kp INT1      &kp RBRC      &trans        &kp QMARK     &kp ASTRK     &kp LT        &kp GT        &kp PIPE     &kp RG(P)
         &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans
     >;
-    display-name = "nums PT";
+    display-name = "Nums PT";
 };
