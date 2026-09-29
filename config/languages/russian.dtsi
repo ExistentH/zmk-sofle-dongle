@@ -4,9 +4,9 @@ russian {
         &kp SQT       &kp COMMA     &kp S         &kp J         &kp E         &kp M         &trans        &kp LBKT      &kp K         &kp L         &kp I         &kp D         &kp P
         &kp Z         &kp W         &kp B         &kp T         &kp F         &kp LS(SLASH) &trans        &kp SLASH     &kp RBKT      &kp N         &kp C         &kp Y         &kp SEMI
         &kp DOT       &kp U         &kp X         &kp Q         &kp R         &kp MINUS     &trans        &kp LS(7)     &kp H         &kp V         &kp A         &kp G         &kp O
-        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans
+        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &sl NUMS_RU   &sl SHFT_RU   &trans        &trans        &trans
     >;
-    display-name = "home RU";
+    display-name = "Home RU";
 };
 
 russian_shift {
@@ -17,7 +17,7 @@ russian_shift {
         &kp GT        &kp LS(U)     &kp LS(X)     &kp LS(Q)     &kp LS(R)     &kp RG(MINUS) &trans        &kp RG(DOT)   &kp LS(H)     &kp LS(V)     &kp LS(A)     &kp LS(G)     &kp LS(O)
         &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans
     >;
-    display-name = "shft RU";
+    display-name = "Shft RU";
 };
 
 russian_number {
@@ -28,5 +28,5 @@ russian_number {
         &kp RG(APOS)  &kp DLLR      &kp RG(EQUAL) &kp RG(R)     &kp SLASH     &kp LBRC      &trans        &kp RBRC      &kp ASTRK     &kp LT        &kp GT        &kp CARET     &kp HASH
         &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans
     >;
-    display-name = "nums RU";
+    display-name = "Nums RU";
 };
