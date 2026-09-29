@@ -168,7 +168,7 @@
 &none         &none         &none         &none         &none         &none         &mmv MOVE_RIGHT &none         &none         &none         &none         &none         &none
 &kp C_MUTE    &none         &none         &mo EDIT      &kp SPACE     &kp RET       &mkp LCLK       &none         &none         &mo LANG      &none         &none
             >;
-            display-name = "base";
+            display-name = "Base";
             sensor-bindings = <&rsr_vol &rsr_trans>;
         };
 
@@ -185,7 +185,7 @@
 &kp ESC       &kp LC(LS(V))   &kp LC(LS(T)) &kp LC(W)     &kp LC(T)       &kp LC(LS(Z)) &kp RIGHT     &none         &none         &none         &none         &none         &none
 &none         &none           &none         &none         &none           &none         &kp LCTRL     &kp LSHFT     &none         &none         &none         &none
             >;
-            display-name = "edit";
+            display-name = "Edit";
             sensor-bindings = <&rsr_vol &rsr_trans>;
         };
 
@@ -197,7 +197,7 @@
 &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans
 &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans
             >;
-            display-name = "lang";
+            display-name = "Lang";
         };
 
         hexadecimal {
@@ -208,7 +208,7 @@
 &kp E         &kp C         &kp KP_N5     &kp KP_N6     &kp KP_N8     &kp COMMA     &trans        &trans        &trans        &trans        &trans        &trans        &trans
 &trans        &trans        &trans        &kp ENTER     &kp PLUS      &kp MINUS     &trans        &kp LALT      &trans        &trans        &trans        &trans
             >;
-            display-name = "hexa";
+            display-name = "Hexa";
             sensor-bindings = <&rsr_vol &rsr_trans>;
         };
     };
