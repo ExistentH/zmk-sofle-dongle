@@ -476,7 +476,7 @@ layers:
   - E
   - M
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '[', s: '{'}
+  - {t: ']', s: '}'}
   - K
   - L
   - I
@@ -490,7 +490,7 @@ layers:
   - {t: Sft+/, s: 'Sft+?'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: /, s: '?'}
-  - {t: ']', s: '}'}
+  - {t: '[', s: '{'}
   - N
   - C
   - Y
@@ -541,7 +541,7 @@ layers:
   - Sft+E
   - Sft+M
   - {t: '$$mdi:transfer$$', type: trans}
-  - '{'
+  - '}'
   - Sft+K
   - Sft+L
   - Sft+I
@@ -555,7 +555,7 @@ layers:
   - Gui+2
   - {t: '$$mdi:transfer$$', type: trans}
   - Gui+3
-  - {t: ']', s: '}'}
+  - '{'
   - Sft+N
   - Sft+C
   - Sft+Y
