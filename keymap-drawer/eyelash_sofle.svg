@@ -283,8 +283,8 @@ rect.held, rect.combo.held {
   visibility: hidden;
 }
 </style>
-<g transform="translate(40, 0)" class="layer-base">
-<text x="0" y="28" class="label" id="base">base:</text>
+<g transform="translate(40, 0)" class="layer-Base">
+<text x="0" y="28" class="label" id="Base">Base:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 56)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -568,8 +568,8 @@ rect.held, rect.combo.held {
 <g transform="translate(252, 259)" class="key keypos-55">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<a href="#edit">
-<text x="0" y="-4" class="key tap layer-activator">edit</text>
+<a href="#Edit">
+<text x="0" y="-4" class="key tap layer-activator">Edit</text>
 </a></g>
 <g transform="translate(314, 283) rotate(30.0)" class="key keypos-56">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -599,8 +599,8 @@ rect.held, rect.combo.held {
 <g transform="translate(672, 259)" class="key keypos-61">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<a href="#lang">
-<text x="0" y="-4" class="key tap layer-activator">lang</text>
+<a href="#Lang">
+<text x="0" y="-4" class="key tap layer-activator">Lang</text>
 </a></g>
 <g transform="translate(728, 252)" class="key none keypos-62">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key none side"/>
@@ -4724,8 +4724,8 @@ rect.held, rect.combo.held {
 </g>
 </g>
 </g>
-<g transform="translate(40, 5047)" class="layer-edit">
-<text x="0" y="28" class="label" id="edit">edit:</text>
+<g transform="translate(40, 5047)" class="layer-Edit">
+<text x="0" y="28" class="label" id="Edit">Edit:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 56)" class="key trans keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
@@ -5069,8 +5069,8 @@ rect.held, rect.combo.held {
 </g>
 </g>
 </g>
-<g transform="translate(40, 5435)" class="layer-lang">
-<text x="0" y="28" class="label" id="lang">lang:</text>
+<g transform="translate(40, 5435)" class="layer-Lang">
+<text x="0" y="28" class="label" id="Lang">Lang:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 56)" class="key trans keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
@@ -5398,8 +5398,8 @@ rect.held, rect.combo.held {
 </g>
 </g>
 </g>
-<g transform="translate(40, 5824)" class="layer-hexa">
-<text x="0" y="28" class="label" id="hexa">hexa:</text>
+<g transform="translate(40, 5824)" class="layer-Hexa">
+<text x="0" y="28" class="label" id="Hexa">Hexa:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 56)" class="key trans keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
