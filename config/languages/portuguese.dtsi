@@ -23,7 +23,7 @@ portuguese_shift {
 portuguese_number {
     bindings = <
         &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans
-        &kp RA(SLASH) &kp PRCNT     &kp N6        &kp N8        &kp COMMA     &kp RBKT      &trans        &kp BSLH      &kp DOT       &kp N9        &kp N7        &kp PLUS      &kp RA(RBKT)
+        &kp RA(BSLH)  &kp PRCNT     &kp N6        &kp N8        &kp COMMA     &kp RBKT      &trans        &kp BSLH      &kp DOT       &kp N9        &kp N7        &kp PLUS      &kp RA(RBKT)
         &kp SLASH     &kp EQUAL     &kp N4        &kp N1        &kp N2        &kp LPAR      &trans        &kp RPAR      &kp N3        &kp N0        &kp N5        &kp MINUS     &kp EXCL
         &kp RA(E)     &kp DLLR      &kp RG(EQUAL) &kp RG(R)     &kp RA(Q)     &kp RBRC      &trans        &kp PIPE      &kp ASTRK     &kp LT        &kp GT        &kp QMARK     &kp RG(P)
         &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans
