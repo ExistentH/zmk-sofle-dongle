@@ -3,7 +3,7 @@ layers:
   Base:
   - Ctl+$$mdi:backspace-reverse-outline$$
   - $$mdi:keyboard-tab-reverse$$
-  - {t: 'Ctl+$$mdi:backspace$$', type: backspace}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:keyboard-tab$$
   - $$mdi:backspace-reverse-outline$$
@@ -58,7 +58,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - Edit
   - $$mdi:keyboard-space$$
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: 'Ctl+$$mdi:backspace$$', type: backspace}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
