@@ -807,7 +807,7 @@ layers:
   - {t: '7', s: '&'}
   - {t: ']', s: '}'}
   - {t: 'AltGr+]', s: 'AltGr+}'}
-  - <
+  - $
   - )
   - {t: '4', s: $}
   - {t: '1', s: '!'}
@@ -821,17 +821,17 @@ layers:
   - {t: '-', s: _}
   - '!'
   - '~'
-  - $
+  - '>'
   - Gui+)
   - Gui+R
-  - '&'
+  - <
   - '"'
   - {t: '$$mdi:transfer$$', type: trans}
   - '|'
-  - '}'
+  - APMS
   - NUBS
   - '|'
-  - '>'
+  - '}'
   - Gui+P
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
