@@ -417,7 +417,7 @@ layers:
   - {t: '7', s: '&'}
   - +
   - {t: 'AltGr+]', s: 'AltGr+}'}
-  - {t: /, s: '?'}
+  - $
   - {t: '=', s: +}
   - {t: '4', s: $}
   - {t: '1', s: '!'}
@@ -431,17 +431,17 @@ layers:
   - {t: '-', s: _}
   - '!'
   - AltGr+E
-  - $
+  - '?'
   - {t: Gui+=, s: Gui++}
   - Gui+R
-  - AltGr+Q
+  - {t: /, s: '?'}
   - '}'
   - {t: '$$mdi:transfer$$', type: trans}
   - '|'
-  - '*'
+  - AltGr+Q
   - <
   - '>'
-  - '?'
+  - '*'
   - Gui+P
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
