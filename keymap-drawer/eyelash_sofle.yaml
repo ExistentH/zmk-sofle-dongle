@@ -222,7 +222,7 @@ layers:
   - {t: '7', s: '&'}
   - +
   - '~'
-  - {t: ;, s: ':'}
+  - $
   - {t: '=', s: +}
   - {t: '4', s: $}
   - {t: '1', s: '!'}
@@ -236,17 +236,17 @@ layers:
   - {t: '-', s: _}
   - '!'
   - Gui+.
-  - $
+  - ':'
   - {t: Gui+=, s: Gui++}
   - Gui+R
-  - {t: /, s: '?'}
+  - {t: ;, s: ':'}
   - '{'
   - {t: '$$mdi:transfer$$', type: trans}
   - '}'
-  - '*'
+  - {t: /, s: '?'}
   - <
   - '>'
-  - ':'
+  - '*'
   - Gui+P
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
