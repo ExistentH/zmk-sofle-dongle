@@ -664,20 +664,20 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - '&'
+  - {t: '=', s: +}
   - B
   - Y
   - O
   - U
-  - {t: '''', s: '"'}
+  - {t: '-', s: _}
   - {t: '$$mdi:transfer$$', type: trans}
-  - '"'
+  - '@'
   - L
   - D
   - W
   - V
   - Z
-  - _
+  - {t: '[', s: '{'}
   - C
   - I
   - E
@@ -690,19 +690,19 @@ layers:
   - S
   - N
   - Q
-  - {t: \, s: '|'}
+  - '&es_low_u_dia'
   - G
   - X
   - J
   - K
-  - {t: '-', s: _}
+  - {t: /, s: '?'}
   - {t: '$$mdi:transfer$$', type: trans}
-  - '?'
+  - _
   - R
   - M
   - F
   - P
-  - '|'
+  - {t: ;, s: ':'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -729,12 +729,12 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - Gui+A
+  - '{'
   - Sft+B
   - Sft+Y
   - Sft+O
   - Sft+U
-  - {t: '`', s: '~'}
+  - {t: AltGr+\, s: AltGr+|}
   - {t: '$$mdi:transfer$$', type: trans}
   - Gui+T
   - Sft+L
@@ -742,20 +742,20 @@ layers:
   - Sft+W
   - Sft+V
   - Sft+Z
-  - Gui+E
+  - AltGr+.
   - Sft+C
   - Sft+I
   - Sft+E
   - Sft+A
   - '#'
   - {t: '$$mdi:transfer$$', type: trans}
-  - '@'
+  - AltGr+Q
   - Sft+H
   - Sft+T
   - Sft+S
   - Sft+N
   - Sft+Q
-  - Gui+N
+  - '&es_upp_u_dia'
   - Sft+G
   - Sft+X
   - Sft+J
@@ -767,7 +767,7 @@ layers:
   - Sft+M
   - Sft+F
   - Sft+P
-  - Gui+C
+  - ':'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -794,44 +794,44 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - ^
+  - +
   - '%'
   - {t: '6', s: ^}
   - {t: '8', s: '*'}
   - {t: ., s: '>'}
-  - {t: '[', s: '{'}
+  - .
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: ']', s: '}'}
+  - {t: \, s: '|'}
   - {t: ',', s: <}
   - {t: '9', s: (}
   - {t: '7', s: '&'}
-  - +
-  - '~'
-  - {t: ;, s: ':'}
-  - {t: '=', s: +}
+  - {t: ']', s: '}'}
+  - {t: 'AltGr+]', s: 'AltGr+}'}
+  - <
+  - )
   - {t: '4', s: $}
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
-  - (
+  - '*'
   - {t: '$$mdi:transfer$$', type: trans}
-  - )
+  - (
   - {t: '3', s: '#'}
   - {t: '0', s: )}
   - {t: '5', s: '%'}
   - {t: '-', s: _}
   - '!'
-  - Gui+.
+  - '~'
   - $
-  - {t: Gui+=, s: Gui++}
+  - Gui+)
   - Gui+R
-  - {t: /, s: '?'}
-  - '{'
+  - '&'
+  - '"'
   - {t: '$$mdi:transfer$$', type: trans}
+  - '|'
   - '}'
-  - '*'
-  - <
+  - NUBS
+  - '|'
   - '>'
-  - ':'
   - Gui+P
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
