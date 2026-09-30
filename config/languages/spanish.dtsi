@@ -1,9 +1,9 @@
 spanish {
     bindings = <
         &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans
-        &kp AMPS      &kp B         &kp Y         &kp O         &kp U         &kp SQT       &trans        &kp DQT       &kp L         &kp D         &kp W         &kp V         &kp Z
-        &kp UNDER     &kp C         &kp I         &kp E         &kp A         &kp COMMA     &trans        &kp DOT       &kp H         &kp T         &kp S         &kp N         &kp Q
-        &kp BSLH      &kp G         &kp X         &kp J         &kp K         &kp MINUS     &trans        &kp QMARK     &kp R         &kp M         &kp F         &kp P         &kp PIPE
+        &kp EQUAL     &kp B         &kp Y         &kp O         &kp U         &kp MINUS     &trans        &kp AT        &kp L         &kp D         &kp W         &kp V         &kp Z
+        &kp LBKT      &kp C         &kp I         &kp E         &kp A         &kp COMMA     &trans        &kp DOT       &kp H         &kp T         &kp S         &kp N         &kp Q
+        &es_low_u_dia &kp G         &kp X         &kp J         &kp K         &kp SLASH     &trans        &kp UNDER     &kp R         &kp M         &kp F         &kp P         &kp SEMI
         &trans        &trans        &trans        &trans        &trans        &trans        &trans        &sl NUMS_ES   &sl SHFT_ES   &trans        &trans        &trans
     >;
     display-name = "Home ES";
@@ -12,9 +12,9 @@ spanish {
 spanish_shift {
     bindings = <
         &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans
-        &kp RG(A)     &kp LS(B)     &kp LS(Y)     &kp LS(O)     &kp LS(U)     &kp GRAVE     &trans        &kp RG(T)     &kp LS(L)     &kp LS(D)     &kp LS(W)     &kp LS(V)     &kp LS(Z)
-        &kp RG(E)     &kp LS(C)     &kp LS(I)     &kp LS(E)     &kp LS(A)     &kp HASH      &trans        &kp AT        &kp LS(H)     &kp LS(T)     &kp LS(S)     &kp LS(N)     &kp LS(Q)
-        &kp RG(N)     &kp LS(G)     &kp LS(X)     &kp LS(J)     &kp LS(K)     &kp RG(MINUS) &trans        &kp RG(DOT)   &kp LS(R)     &kp LS(M)     &kp LS(F)     &kp LS(P)     &kp RG(C)
+        &kp LBRC      &kp LS(B)     &kp LS(Y)     &kp LS(O)     &kp LS(U)     &kp RA(BSLH)  &trans        &kp RG(T)     &kp LS(L)     &kp LS(D)     &kp LS(W)     &kp LS(V)     &kp LS(Z)
+        &kp RA(APOS)  &kp LS(C)     &kp LS(I)     &kp LS(E)     &kp LS(A)     &kp HASH      &trans        &kp RA(Q)     &kp LS(H)     &kp LS(T)     &kp LS(S)     &kp LS(N)     &kp LS(Q)
+        &es_upp_u_dia &kp LS(G)     &kp LS(X)     &kp LS(J)     &kp LS(K)     &kp RG(MINUS) &trans        &kp RG(DOT)   &kp LS(R)     &kp LS(M)     &kp LS(F)     &kp LS(P)     &kp COLON
         &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans
     >;
     display-name = "Shft ES";
@@ -23,9 +23,9 @@ spanish_shift {
 spanish_number {
     bindings = <
         &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans
-        &kp CARET     &kp PRCNT     &kp N6        &kp N8        &kp DOT       &kp LBKT      &trans        &kp RBKT      &kp COMMA     &kp N9        &kp N7        &kp PLUS      &kp TILDE
-        &kp SEMI      &kp EQUAL     &kp N4        &kp N1        &kp N2        &kp LPAR      &trans        &kp RPAR      &kp N3        &kp N0        &kp N5        &kp MINUS     &kp EXCL
-        &kp RG(APOS)  &kp DLLR      &kp RG(EQUAL) &kp RG(R)     &kp SLASH     &kp LBRC      &trans        &kp RBRC      &kp ASTRK     &kp LT        &kp GT        &kp COLON     &kp RG(P)
+        &kp PLUS      &kp PRCNT     &kp N6        &kp N8        &kp DOT       &kp APOS      &trans        &kp BSLH      &kp COMMA     &kp N9        &kp N7        &kp RBKT      &kp RA(RBKT)
+        &kp LT        &kp RPAR      &kp N4        &kp N1        &kp N2        &kp ASTRK     &trans        &kp LPAR      &kp N3        &kp N0        &kp N5        &kp MINUS     &kp EXCL
+        &kp TILDE     &kp DLLR      &kp RG(RPAR)  &kp RG(R)     &kp AMPS      &kp DQT       &trans        &kp PIPE      &kp RBRC      &kp NUBS      &kp PIPE2     &kp GT        &kp RG(P)
         &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans
     >;
     display-name = "Nums ES";
