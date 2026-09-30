@@ -25,7 +25,7 @@ spanish_number {
         &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans
         &kp PLUS      &kp PRCNT     &kp N6        &kp N8        &kp DOT       &kp APOS      &trans        &kp BSLH      &kp COMMA     &kp N9        &kp N7        &kp RBKT      &kp RA(RBKT)
         &kp DLLR      &kp RPAR      &kp N4        &kp N1        &kp N2        &kp ASTRK     &trans        &kp LPAR      &kp N3        &kp N0        &kp N5        &kp MINUS     &kp EXCL
-        &kp TILDE     &kp GT        &kp RG(RPAR)  &kp RG(R)     &kp LT        &kp DQT       &trans        &kp PIPE      &kp APMS      &kp NUBS      &kp PIPE2     &kp RBRC      &kp RG(P)
+        &kp TILDE     &kp GT        &kp RG(RPAR)  &kp RG(R)     &kp LT        &kp DQT       &trans        &kp PIPE      &kp AMPS      &kp NUBS      &kp PIPE2     &kp RBRC      &kp RG(P)
         &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans
     >;
     display-name = "Nums ES";
