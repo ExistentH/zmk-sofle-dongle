@@ -110,7 +110,7 @@
             <&macro_release &kp LALT &kp LSHIFT>,
             <&macro_tap &to HOME_PT>;
         };
-        pt_low_a_grave: pt_low_a_grave {
+        pt_low_a_grv: pt_low_a_grv {
         compatible = "zmk,behavior-macro";
         #binding-cells = <0>;
 
@@ -118,7 +118,7 @@
             <&kp LBRC>,
             <&kp A>;
         };
-        pt_upp_a_grave: pt_upp_a_grave {
+        pt_upp_a_grv: pt_upp_a_grv {
         compatible = "zmk,behavior-macro";
         #binding-cells = <0>;
 
@@ -145,6 +145,22 @@
             <&macro_tap &kp N3>,
             <&macro_release &kp LALT &kp LSHIFT>,
             <&macro_tap &to HOME_ES>;
+        };
+        es_low_u_dia: es_low_u_dia {
+        compatible = "zmk,behavior-macro";
+        #binding-cells = <0>;
+
+        bindings =
+            <&kp LBRC>,
+            <&kp U>;
+        };
+        es_upp_u_dia: es_upp_u_dia {
+        compatible = "zmk,behavior-macro";
+        #binding-cells = <0>;
+
+        bindings =
+            <&kp LBRC>,
+            <&kp LS(U)>;
         };
     };
 
