@@ -23,9 +23,9 @@ russian_shift {
 russian_number {
     bindings = <
         &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans
-        &kp GRAVE     &kp PRCNT     &kp N6        &kp N8        &kp SLASH     &kp LBKT      &trans        &kp RBKT      &kp SPACE     &kp N9        &kp N7        &kp PLUS      &kp TILDE
-        &kp DLLR      &kp EQUAL     &kp N4        &kp N1        &kp N2        &kp LPAR      &trans        &kp RPAR      &kp N3        &kp N0        &kp N5        &kp MINUS     &kp EXCL
-        &kp RG(APOS)  &kp DLLR      &kp RG(EQUAL) &kp RG(R)     &kp SLASH     &kp LBRC      &trans        &kp RBRC      &kp ASTRK     &kp LT        &kp GT        &kp CARET     &kp HASH
+        &kp GRAVE     &kp PRCNT     &kp N6        &kp N8        &kp SLASH     &kp RG(S)     &trans        &kp RG(C)     &kp SPACE     &kp N9        &kp N7        &kp PLUS      &kp TILDE
+        &kp RA(N8)    &kp EQUAL     &kp N4        &kp N1        &kp N2        &kp LPAR      &trans        &kp RPAR      &kp N3        &kp N0        &kp N5        &kp MINUS     &kp EXCL
+        &kp RG(APOS)  &kp CARET     &kp RG(EQUAL) &kp RG(R)     &kp DLLR      &kp RG(X)     &trans        &kp RG(K)     &kp LS(BSLH)  &kp RG(L)     &kp RG(G)     &kp ASTRK     &kp HASH
         &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans
     >;
     display-name = "Nums RU";
