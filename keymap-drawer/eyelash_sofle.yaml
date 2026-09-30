@@ -300,7 +300,7 @@ layers:
   - S
   - N
   - Q
-  - '&pt_low_a_grave'
+  - '&pt_low_a_grv'
   - G
   - X
   - J
@@ -365,7 +365,7 @@ layers:
   - Sft+S
   - Sft+N
   - Sft+Q
-  - '&pt_upp_a_grave'
+  - '&pt_upp_a_grv'
   - Sft+G
   - Sft+X
   - Sft+J
