@@ -828,7 +828,7 @@ layers:
   - '"'
   - {t: '$$mdi:transfer$$', type: trans}
   - '|'
-  - APMS
+  - '&'
   - NUBS
   - '|'
   - '}'
