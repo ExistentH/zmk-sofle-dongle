@@ -1,12 +1,12 @@
 layout: {zmk_keyboard: eyelash_sofle}
 layers:
   Base:
-  - {t: 'Ctl+$$mdi:backspace$$', type: backspace}
   - $$mdi:keyboard-tab-reverse$$
-  - $$mdi:keyboard-tab$$
-  - $$mdi:backspace-reverse-outline$$
   - Ctl+$$mdi:backspace-reverse-outline$$
-  - Ctl+Z
+  - {t: 'Ctl+$$mdi:backspace$$', type: backspace}
+  - {t: '$$mdi:backspace$$', type: backspace}
+  - $$mdi:backspace-reverse-outline$$
+  - $$mdi:keyboard-tab$$
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
   - HOME
   - $$mdi:arrow-up-bold$$
@@ -55,15 +55,15 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:volume-off$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: Edit, h: '$$mdi:gesture-tap-hold$$'}
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - Edit
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: 'Ctl+$$mdi:backspace$$', type: backspace}
-  - {t: Lang, h: '$$mdi:gesture-tap-hold$$'}
+  - Lang
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   Home EN:
   - {t: '$$mdi:transfer$$', type: trans}
@@ -864,7 +864,7 @@ layers:
   - Ctl+$$mdi:keyboard-tab$$
   - Alt+$$mdi:keyboard-tab$$
   - Sft+Alt+$$mdi:keyboard-tab$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - Alt+F4
   - $$mdi:arrow-down-bold$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -877,7 +877,7 @@ layers:
   - Ctl+A
   - Ctl+C
   - Ctl+V
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - Ctl+Sft+V
   - $$mdi:arrow-left-bold$$
   - F5
   - F2
@@ -885,12 +885,12 @@ layers:
   - F3
   - F12
   - F11
-  - Ctl+Sft+Z
-  - Ctl+Sft+V
   - Ctl+Sft+T
-  - Ctl+W
   - Ctl+T
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - Ctl+W
+  - Ctl+Sft+Z
+  - Ctl+Z
+  - Ctl+Y
   - $$mdi:arrow-right-bold$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -900,8 +900,8 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: held}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: held}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:apple-keyboard-control$$
@@ -972,8 +972,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   Hexa:
   - {t: '$$mdi:transfer$$', type: trans}
