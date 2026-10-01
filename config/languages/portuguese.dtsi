@@ -23,9 +23,9 @@ portuguese_shift {
 portuguese_number {
     bindings = <
         &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans
-        &kp RA(BSLH)  &kp PRCNT     &kp N6        &kp N8        &kp COMMA     &kp RBKT      &trans        &kp BSLH      &kp DOT       &kp N9        &kp N7        &kp PLUS      &kp RA(RBKT)
-        &kp DLLR      &kp EQUAL     &kp N4        &kp N1        &kp N2        &kp LPAR      &trans        &kp RPAR      &kp N3        &kp N0        &kp N5        &kp MINUS     &kp EXCL
-        &kp RA(E)     &kp QMARK     &kp RG(EQUAL) &kp RG(R)     &kp SLASH     &kp RBRC      &trans        &kp PIPE      &kp RA(Q)     &kp LT        &kp GT        &kp ASTRK     &kp RG(P)
+        &kp RA(BSLH)  &kp PRCNT     &kp N6        &kp N8        &kp COMMA     &kp LPAR      &trans        &kp RPAR      &kp DOT       &kp N9        &kp N7        &kp PLUS      &kp RA(RBKT)
+        &kp DLLR      &kp EQUAL     &kp N4        &kp N1        &kp N2        &kp RBRC      &trans        &kp PIPE      &kp N3        &kp N0        &kp N5        &kp MINUS     &kp EXCL
+        &kp RA(E)     &kp QMARK     &kp RG(EQUAL) &kp RG(R)     &kp SLASH     &kp RBKT      &trans        &kp BSLH      &kp RA(Q)     &kp LT        &kp GT        &kp ASTRK     &kp RG(P)
         &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans
     >;
     display-name = "Nums PT";
