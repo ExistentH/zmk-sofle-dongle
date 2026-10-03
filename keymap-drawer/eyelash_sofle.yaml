@@ -604,9 +604,9 @@ layers:
   - {t: '6', s: ^}
   - {t: '8', s: '*'}
   - {t: /, s: '?'}
-  - (
+  - Gui+S
   - {t: '$$mdi:transfer$$', type: trans}
-  - )
+  - Gui+C
   - $$mdi:keyboard-space$$
   - {t: '9', s: (}
   - {t: '7', s: '&'}
@@ -617,9 +617,9 @@ layers:
   - {t: '4', s: $}
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
-  - Gui+X
+  - (
   - {t: '$$mdi:transfer$$', type: trans}
-  - Gui+K
+  - )
   - {t: '3', s: '#'}
   - {t: '0', s: )}
   - {t: '5', s: '%'}
@@ -630,9 +630,9 @@ layers:
   - {t: Gui+=, s: Gui++}
   - Gui+R
   - $
-  - Gui+S
+  - Gui+X
   - {t: '$$mdi:transfer$$', type: trans}
-  - Gui+C
+  - Gui+K
   - {t: Sft+\, s: Sft+|}
   - Gui+L
   - Gui+G
