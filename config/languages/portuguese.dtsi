@@ -3,7 +3,7 @@ portuguese {
         &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans
         &kp SQT       &kp B         &kp Y         &kp O         &kp U         &kp GRAVE     &trans        &kp TILDE     &kp L         &kp D         &kp W         &kp V         &kp Z
         &kp LBKT      &kp C         &kp I         &kp E         &kp A         &kp COMMA     &trans        &kp DOT       &kp H         &kp T         &kp S         &kp N         &kp Q
-        &pt_low_a_grv &kp G       &kp X         &kp J         &kp K         &kp MINUS     &trans        &kp RA(W)     &kp R         &kp M         &kp F         &kp P         &kp SEMI
+        &pt_low_a_grv &kp G         &kp X         &kp J         &kp K         &kp MINUS     &trans        &kp RA(W)     &kp R         &kp M         &kp F         &kp P         &kp SEMI
         &trans        &trans        &trans        &trans        &trans        &trans        &trans        &sl NUMS_PT   &sl SHFT_PT   &trans        &trans        &trans
     >;
     display-name = "Home PT";
@@ -23,9 +23,9 @@ portuguese_shift {
 portuguese_number {
     bindings = <
         &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans
-        &kp RA(BSLH)  &kp PRCNT     &kp N6        &kp N8        &kp COMMA     &kp LPAR      &trans        &kp RPAR      &kp DOT       &kp N9        &kp N7        &kp PLUS      &kp RA(RBKT)
-        &kp DLLR      &kp EQUAL     &kp N4        &kp N1        &kp N2        &kp RBRC      &trans        &kp PIPE      &kp N3        &kp N0        &kp N5        &kp MINUS     &kp EXCL
-        &kp RA(E)     &kp QMARK     &kp RG(EQUAL) &kp RG(R)     &kp SLASH     &kp RBKT      &trans        &kp BSLH      &kp RA(Q)     &kp LT        &kp GT        &kp ASTRK     &kp RG(P)
+        &kp RA(BSLH)  &kp PRCNT     &kp N6        &kp N8        &kp COMMA     &kp RBKT      &trans        &kp BSLH      &kp DOT       &kp N9        &kp N7        &kp PLUS      &kp RA(RBKT)
+        &kp DLLR      &kp EQUAL     &kp N4        &kp N1        &kp N2        &kp LPAR      &trans        &kp RPAR      &kp N3        &kp N0        &kp N5        &kp MINUS     &kp EXCL
+        &kp RA(E)     &kp QMARK     &kp RG(EQUAL) &kp RG(R)     &kp SLASH     &kp RBRC      &trans        &kp PIPE      &kp RA(Q)     &kp LT        &kp GT        &kp ASTRK     &kp RG(P)
         &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans
     >;
     display-name = "Nums PT";
