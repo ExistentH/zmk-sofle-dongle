@@ -2,8 +2,8 @@ russian {
     bindings = <
         &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans
         &kp SQT       &kp COMMA     &kp S         &kp J         &kp E         &kp M         &trans        &kp RBKT      &kp K         &kp L         &kp I         &kp D         &kp P
-        &kp Z         &kp W         &kp B         &kp T         &kp F         &kp LS(SLASH) &trans        &kp SLASH     &kp LBKT      &kp N         &kp C         &kp Y         &kp SEMI
-        &kp DOT       &kp U         &kp X         &kp Q         &kp R         &kp MINUS     &trans        &kp LS(7)     &kp H         &kp V         &kp A         &kp G         &kp O
+        &kp Z         &kp W         &kp B         &kp T         &kp F         &kp LS(SLASH) &trans        &kp SLASH     &kp LBKT      &kp N         &kp C         &kp Y         &kp Q
+        &kp DOT       &kp U         &kp X         &kp SEMI      &kp R         &kp MINUS     &trans        &kp LS(7)     &kp H         &kp V         &kp A         &kp G         &kp O
         &trans        &trans        &trans        &trans        &trans        &trans        &trans        &sl NUMS_RU   &sl SHFT_RU   &trans        &trans        &trans
     >;
     display-name = "Home RU";
@@ -13,8 +13,8 @@ russian_shift {
     bindings = <
         &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans
         &kp DQT       &kp LT        &kp LS(S)     &kp LS(J)     &kp LS(E)     &kp LS(M)     &trans        &kp RBRC      &kp LS(K)     &kp LS(L)     &kp LS(I)     &kp LS(D)     &kp LS(P)
-        &kp LS(Z)     &kp LS(W)     &kp LS(B)     &kp LS(T)     &kp LS(F)     &kp RG(2)     &trans        &kp RG(3)     &kp LBRC      &kp LS(N)     &kp LS(C)     &kp LS(Y)     &kp COLON
-        &kp GT        &kp LS(U)     &kp LS(X)     &kp LS(Q)     &kp LS(R)     &kp RG(MINUS) &trans        &kp RG(DOT)   &kp LS(H)     &kp LS(V)     &kp LS(A)     &kp LS(G)     &kp LS(O)
+        &kp LS(Z)     &kp LS(W)     &kp LS(B)     &kp LS(T)     &kp LS(F)     &kp RG(2)     &trans        &kp RG(3)     &kp LBRC      &kp LS(N)     &kp LS(C)     &kp LS(Y)     &kp LS(Q)
+        &kp GT        &kp LS(U)     &kp LS(X)     &kp COLON     &kp LS(R)     &kp RG(MINUS) &trans        &kp RG(DOT)   &kp LS(H)     &kp LS(V)     &kp LS(A)     &kp LS(G)     &kp LS(O)
         &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans
     >;
     display-name = "Shft RU";
