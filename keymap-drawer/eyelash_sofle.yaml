@@ -494,11 +494,11 @@ layers:
   - N
   - C
   - Y
-  - {t: ;, s: ':'}
+  - Q
   - {t: ., s: '>'}
   - U
   - X
-  - Q
+  - {t: ;, s: ':'}
   - R
   - {t: '-', s: _}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -559,11 +559,11 @@ layers:
   - Sft+N
   - Sft+C
   - Sft+Y
-  - ':'
+  - Sft+Q
   - '>'
   - Sft+U
   - Sft+X
-  - Sft+Q
+  - ':'
   - Sft+R
   - {t: Gui+-, s: Gui+_}
   - {t: '$$mdi:transfer$$', type: trans}
