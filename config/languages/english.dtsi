@@ -1,12 +1,13 @@
 english {
     bindings = <
-        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans
-        &kp AMPS      &kp B         &kp Y         &kp O         &kp U         &kp SQT       &trans        &kp DQT       &kp L         &kp D         &kp W         &kp V         &kp Z
-        &kp UNDER     &kp C         &kp I         &kp E         &kp A         &kp COMMA     &trans        &kp DOT       &kp H         &kp T         &kp S         &kp N         &kp Q
-        &kp BSLH      &kp G         &kp X         &kp J         &kp K         &kp MINUS     &trans        &kp QMARK     &kp R         &kp M         &kp F         &kp P         &kp PIPE
-        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &sl NUMS_EN   &sl SHFT_EN   &trans        &trans        &trans
+        &kp LS(TAB)   &kp LC(DEL)   &kp LC(BSPC)  &kp BSPC      &kp DEL       &kp TAB       &mmv MOVE_UP    &kp HOME      &kp UP        &kp LEFT      &kp RIGHT     &kp DOWN      &kp END
+        &kp AMPS      &kp B         &kp Y         &kp O         &kp U         &kp SQT       &mmv MOVE_DOWN  &kp DQT       &kp L         &kp D         &kp W         &kp V         &kp Z
+        &kp UNDER     &kp C         &kp I         &kp E         &kp A         &kp COMMA     &mmv MOVE_LEFT  &kp DOT       &kp H         &kp T         &kp S         &kp N         &kp Q
+        &kp BSLH      &kp G         &kp X         &kp J         &kp K         &kp MINUS     &mmv MOVE_RIGHT &kp QMARK     &kp R         &kp M         &kp F         &kp P         &kp PIPE
+        &kp C_MUTE    &none         &none         &mo EDIT      &kp SPACE     &kp RET       &mkp LCLK       &sl NUMS_EN   &sl SHFT_EN   &mo LANG      &trans        &trans
     >;
-    display-name = "Home EN";
+    display-name = "Base EN";
+    sensor-bindings = <&rsr_vol &rsr_trans>;
 };
 
 english_shift {
