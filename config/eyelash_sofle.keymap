@@ -9,27 +9,25 @@
 #include <behaviors/runtime-sensor-rotate.dtsi>
 #include <dt-bindings/zmk/mouse.h>
 
-#define BASE 0
+#define HOME_EN 0
+#define SHFT_EN 1
+#define NUMS_EN 2
 
-#define HOME_EN 1
-#define SHFT_EN 2
-#define NUMS_EN 3
+#define HOME_PT 3
+#define SHFT_PT 4
+#define NUMS_PT 5
 
-#define HOME_PT 4
-#define SHFT_PT 5
-#define NUMS_PT 6
+#define HOME_RU 6
+#define SHFT_RU 7
+#define NUMS_RU 8
 
-#define HOME_RU 7
-#define SHFT_RU 8
-#define NUMS_RU 9
+#define HOME_ES 9
+#define SHFT_ES 10
+#define NUMS_ES 11
 
-#define HOME_ES 10
-#define SHFT_ES 11
-#define NUMS_ES 12
-
-#define EDIT 13
-#define LANG 14
-#define HEXA 15
+#define EDIT 12
+#define LANG 13
+#define HEXA 14
 
 / {
     zip_scroll_scaler: zip_scroll_scaler {
@@ -175,18 +173,6 @@
 
     keymap {
         compatible = "zmk,keymap";
-
-        base {
-            bindings = <
-&kp LS(TAB)   &kp LC(DEL)   &kp LC(BSPC)  &kp BSPC      &kp DEL       &kp TAB       &mmv MOVE_UP    &kp HOME      &kp UP        &kp LEFT      &kp RIGHT     &kp DOWN      &kp END
-&none         &none         &none         &none         &none         &none         &mmv MOVE_DOWN  &none         &none         &none         &none         &none         &none
-&none         &lang_es      &lang_ru      &lang_pt      &lang_en      &none         &mmv MOVE_LEFT  &none         &none         &none         &none         &none         &none
-&none         &none         &none         &none         &none         &none         &mmv MOVE_RIGHT &none         &none         &none         &none         &none         &none
-&kp C_MUTE    &none         &none         &mo EDIT      &kp SPACE     &kp RET       &mkp LCLK       &none         &none         &mo LANG      &none         &none
-            >;
-            display-name = "Base";
-            sensor-bindings = <&rsr_vol &rsr_trans>;
-        };
 
         #include "languages/english.dtsi"
         #include "languages/portuguese.dtsi"
