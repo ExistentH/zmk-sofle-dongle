@@ -1,9 +1,9 @@
 russian {
     bindings = <
         &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans
-        &kp SQT       &kp COMMA     &kp S         &kp J         &kp E         &kp M         &trans        &kp RBKT      &kp K         &kp L         &kp I         &kp D         &kp P
-        &kp Z         &kp W         &kp B         &kp T         &kp F         &kp LS(SLASH) &trans        &kp SLASH     &kp LBKT      &kp N         &kp C         &kp Y         &kp Q
-        &kp DOT       &kp U         &kp X         &kp SEMI      &kp R         &kp MINUS     &trans        &kp LS(7)     &kp H         &kp V         &kp A         &kp G         &kp O
+        &kp SQT       &kp COMMA     &kp S         &kp J         &kp E         &kp M         &trans        &kp Q         &kp K         &kp L         &kp I         &kp D         &kp P
+        &kp Z         &kp W         &kp B         &kp T         &kp F         &kp LS(SLASH) &trans        &kp SLASH     &kp LBKT      &kp N         &kp C         &kp Y         &kp O
+        &kp DOT       &kp U         &kp X         &kp SEMI      &kp R         &kp MINUS     &trans        &kp AMPS      &kp H         &kp V         &kp A         &kp G         &kp GRAVE
         &trans        &trans        &trans        &trans        &trans        &trans        &trans        &sl NUMS_RU   &sl SHFT_RU   &trans        &trans        &trans
     >;
     display-name = "Home RU";
@@ -12,9 +12,9 @@ russian {
 russian_shift {
     bindings = <
         &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans
-        &kp DQT       &kp LT        &kp LS(S)     &kp LS(J)     &kp LS(E)     &kp LS(M)     &trans        &kp RBRC      &kp LS(K)     &kp LS(L)     &kp LS(I)     &kp LS(D)     &kp LS(P)
-        &kp LS(Z)     &kp LS(W)     &kp LS(B)     &kp LS(T)     &kp LS(F)     &kp RG(2)     &trans        &kp RG(3)     &kp LBRC      &kp LS(N)     &kp LS(C)     &kp LS(Y)     &kp LS(Q)
-        &kp GT        &kp LS(U)     &kp LS(X)     &kp COLON     &kp LS(R)     &kp RG(MINUS) &trans        &kp RG(DOT)   &kp LS(H)     &kp LS(V)     &kp LS(A)     &kp LS(G)     &kp LS(O)
+        &kp DQT       &kp LT        &kp LS(S)     &kp LS(J)     &kp LS(E)     &kp RBKT      &trans        &kp LS(Q)     &kp LS(K)     &kp LS(L)     &kp LS(I)     &kp LS(D)     &kp LS(P)
+        &kp LS(Z)     &kp LS(W)     &kp LS(B)     &kp LS(T)     &kp LS(F)     &kp RG(2)     &trans        &kp RG(3)     &kp LBRC      &kp LS(N)     &kp LS(C)     &kp LS(Y)     &kp LS(O)
+        &kp GT        &kp LS(U)     &kp LS(X)     &kp COLON     &kp LS(R)     &kp RG(MINUS) &trans        &kp RG(DOT)   &kp LS(H)     &kp LS(V)     &kp LS(A)     &kp LS(G)     &kp TILDE
         &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans
     >;
     display-name = "Shft RU";
@@ -23,7 +23,7 @@ russian_shift {
 russian_number {
     bindings = <
         &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans
-        &kp GRAVE     &kp PRCNT     &kp N6        &kp N8        &kp SLASH     &kp RG(S)     &trans        &kp RG(C)     &kp SPACE     &kp N9        &kp N7        &kp PLUS      &kp TILDE
+        &kp AT        &kp PRCNT     &kp N6        &kp N8        &kp SLASH     &kp RG(S)     &trans        &kp RG(C)     &kp SPACE     &kp N9        &kp N7        &kp PLUS      &kp BSLH
         &kp RA(N8)    &kp EQUAL     &kp N4        &kp N1        &kp N2        &kp LPAR      &trans        &kp RPAR      &kp N3        &kp N0        &kp N5        &kp MINUS     &kp EXCL
         &kp RG(APOS)  &kp CARET     &kp RG(EQUAL) &kp RG(R)     &kp DLLR      &kp RG(X)     &trans        &kp RG(K)     &kp LS(BSLH)  &kp RG(L)     &kp RG(G)     &kp ASTRK     &kp HASH
         &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans
