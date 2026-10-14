@@ -411,7 +411,7 @@ layers:
   - E
   - M
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: ']', s: '}'}
+  - Q
   - K
   - L
   - I
@@ -429,7 +429,7 @@ layers:
   - N
   - C
   - Y
-  - Q
+  - O
   - {t: ., s: '>'}
   - U
   - X
@@ -437,12 +437,12 @@ layers:
   - R
   - {t: '-', s: _}
   - {t: '$$mdi:transfer$$', type: trans}
-  - Sft+7
+  - '&'
   - H
   - V
   - A
   - G
-  - O
+  - {t: '`', s: '~'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -474,9 +474,9 @@ layers:
   - Sft+S
   - Sft+J
   - Sft+E
-  - Sft+M
+  - {t: ']', s: '}'}
   - {t: '$$mdi:transfer$$', type: trans}
-  - '}'
+  - Sft+Q
   - Sft+K
   - Sft+L
   - Sft+I
@@ -494,7 +494,7 @@ layers:
   - Sft+N
   - Sft+C
   - Sft+Y
-  - Sft+Q
+  - Sft+O
   - '>'
   - Sft+U
   - Sft+X
@@ -507,7 +507,7 @@ layers:
   - Sft+V
   - Sft+A
   - Sft+G
-  - Sft+O
+  - '~'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -534,7 +534,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '`', s: '~'}
+  - '@'
   - '%'
   - {t: '6', s: ^}
   - {t: '8', s: '*'}
@@ -546,7 +546,7 @@ layers:
   - {t: '9', s: (}
   - {t: '7', s: '&'}
   - +
-  - '~'
+  - {t: \, s: '|'}
   - {t: AltGr+8, s: AltGr+*}
   - {t: '=', s: +}
   - {t: '4', s: $}
